@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  width: 25vw;
+}
+header nav a {
+  min-width: 115px;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 10vw;
+}
+.personal-part {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 21vw;
+}
+form {
+  display: inline-block;
+  margin: auto 20px;
+}
+.notification {
+  font-size: 2rem;
+  margin: auto 10px;
+}
+.profile {
+  font-size: 2rem;
+  display: inline-block;
+  border: 1px solid black;
+  margin: auto 10px;
+}
+input[name="Search"] {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  color: white;
+  border-radius: 0.3em;
+  font-size: 1.2rem;
+  width: 6em;
+}
+.search-button {
+  margin-left: -38px;
+  background: transparent;
+  font-size: 1.2rem;
+  border: none;
+}
+
+/* MAIN SECTION */
+.main-container {
+  background-image: url("https://media.gq-magazine.co.uk/photos/5d13a10f6602d9744e2b662f/16:9/w_1600,c_limit/Never-Go-Back-04-GQ-18Oct16_b.jpg");
+  background-size: cover;
+}
+.intro-movie {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 100vh;
+  margin-left: 50px;
+}
+.intro-movie-details {
+  color: white;
+}
+
+.intro-movie-details h2 {
+  font-size: 3em;
+  width: 150%;
+}
+
+.imdb-audience-duration {
+  font-size: 0.8em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.5em;
+}
+.imdb-audience-duration .stars {
+  min-width: 180px;
+}
+.imdb-audience-duration p span {
+  border: 1px solid white;
+}
+
+.imdb-audience-duration .audience {
+  border: 1px solid white;
+  margin: 0;
+}
+.more-details {
+  font-weight: bold;
+  color: red;
+}
+.more {
+  font-weight: 500;
+}
+.buton {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border: 1px solid red;
+  border-radius: 7%;
+}
+.buton-class {
+  margin-left: 10px;
+}
+.buton-big {
+  font-size: 2em;
+  margin: 0px 10px 50px 0;
+  padding: 0.3em 1.5em 0.3em 0.15em;
+}
+.buton-small {
+  font-size: 1em;
+  padding: 0.1em 0.5em 0.1em 0.2em;
+  margin: 10px 7px 20px 0;
+}
+
+/*Spacer */
+.spacer {
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+}
+
+/*MOVIE CARDS*/
+.others-container,
+.foryou-container {
+  background-color: black;
+  color: red;
+  font-size: 2rem;
+  padding-left: 5px;
+}
+.others-container h3,
+.foryou-container h3 {
+  margin-left: 5px;
+}
+.audience-duration {
+  display: block;
+  width: 100%;
+}
+
+/*popular movies*/
+.popular-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.popular-container p,
+.recommended-container p {
+  display: inline-block;
+  margin: 0 10px;
+}
+.popular-movies-1 {
+  width: 30%;
+  background-image: url("https://picsum.photos/seed/wit-0823-3/400/280");
+  background-size: cover;
+}
+.popular-movies-1 div {
+  display: inline-block;
+}
+.popular-movies-1 .audience {
+  border: 1px solid red;
+}
+.popular-movies-2 {
+  width: 30%;
+  background-image: url("https://picsum.photos/seed/wit-0823-4/400/280");
+  background-size: cover;
+}
+.popular-movies-2 div {
+  display: inline-block;
+}
+.popular-movies-2 .audience {
+  border: 1px solid red;
+}
+.popular-movies-3 {
+  width: 30%;
+  background-image: url("https://picsum.photos/seed/wit-0823-5/400/280");
+  background-size: cover;
+  background-position: center;
+}
+.popular-movies-3 div {
+  display: inline-block;
+}
+.popular-movies-3 .audience {
+  border: 1px solid red;
+}
+
+/*recommended movies */
+.foryou-container {
+  background-color: black;
+}
+.recommended-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.recommended-movies-1 {
+  width: 30%;
+  background-image: url("https://picsum.photos/seed/wit-0823-6/400/280");
+  background-size: cover;
+}
+.recommended-movies-1 div {
+  display: inline-block;
+}
+.recommended-movies-1 .audience {
+  border: 1px solid red;
+}
+.recommended-movies-2 {
+  width: 30%;
+  background-image: url("https://picsum.photos/seed/wit-0823-7/400/280");
+  background-size: cover;
+}
+.recommended-movies-2 div {
+  display: inline-block;
+}
+.recommended-movies-2 .audience {
+  border: 1px solid red;
+}
+.recommended-movies-3 {
+  width: 30%;
+  background-image: url("https://picsum.photos/seed/wit-0823-8/400/280");
+  background-size: cover;
+}
+.recommended-movies-3 div {
+  display: inline-block;
+}
+.recommended-movies-3 .audience {
+  border: 1px solid red;
+}
+
+/*spacer*/
+.spacer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 1.6rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+.footer-nav-info {
+  width: 50%;
+}
+footer nav {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 1em;
+}
+footer nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-left: 6%;
+}
+.footer-nav-info p {
+  font-weight: lighter;
+  padding-left: 6%;
+}
+.footer-followus,
+.footer-apps {
+  width: 22%;
+}
+.footer-followus h4,
+.footer-apps h4 {
+  margin: 0 auto 10px 5px;
+}
+.footer-followus {
+  display: inline-block;
+  text-align: center;
+}
+.footer-followus a {
+  font-size: 3rem;
+  margin: 0 10px;
+}
+.footer-apps {
+  display: inline-block;
+  text-align: center;
+}
+.footer-apps img {
+  border: 1px solid white;
+  border-radius: 8%;
+  margin: 5px 5px 0 5px;
+}
+
+/*media queries*/
+@media screen and (max-width: 910px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .personal-part {
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .intro-movie {
+    padding-top: 10%;
+  }
+  .intro-movie-details h2 {
+    font-size: 3.7rem;
+  }
+  footer {
+    display: block;
+  }
+  .footer-nav-info {
+    width: 100%;
+  }
+  .footer-followus,
+  .footer-apps {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 730px) {
+  header {
+    display: block;
+  }
+  header nav {
+    display: flex;
+  }
+  header nav,
+  .personal-part {
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .buton-big {
+    font-size: 1.5em;
+    margin: 0px 5px 25px 0;
+    padding: 0.2em 1.2em 0.2em 0.1em;
+  }
+  .spacer {
+    width: 100%;
+    height: 6vh;
+  }
+  .intro-movie {
+    font-size: 1.7rem;
+  }
+  .intro-movie-details h2 {
+    font-size: 2.5rem;
+  }
+  .imdb-audience-duration {
+    display: block;
+  }
+  .imdb-audience-duration .audience {
+    width: 45px;
+  }
+
+  .others-container,
+  .foryou-container {
+    display: block;
+  }
+  .popular-movies-1,
+  .popular-movies-2,
+  .popular-movies-3,
+  .popular-movies-4,
+  .popular-movies-5,
+  .popular-movies-6,
+  .recommended-movies-1,
+  .recommended-movies-2,
+  .recommended-movies-3,
+  .recommended-movies-4,
+  .recommended-movies-5,
+  .recommended-movies-6 {
+    width: 80%;
+    margin-bottom: 1em;
+  }
+  .footer-followus,
+  .footer-apps {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-movie-details h2 {
+    font-size: 2rem;
+  }
+}
