@@ -91,6 +91,9 @@ input[name="Search"] {
   font-size: 3em;
   width: 150%;
 }
+.movie-detail {
+  line-height: 1.2;
+}
 
 .imdb-audience-duration {
   font-size: 0.8em;
@@ -110,13 +113,15 @@ input[name="Search"] {
   border: 1px solid white;
   flex-basis: 1;
 }
+.more {
+  font-weight: 500;
+  line-height: 0.8;
+}
 .more-details {
   font-weight: bold;
   color: red;
 }
-.more {
-  font-weight: 500;
-}
+
 .buton {
   display: block;
   font-family: Arial, Helvetica, sans-serif;
@@ -159,7 +164,7 @@ input[name="Search"] {
 }
 .heading-section h4,
 .heading-section p {
-  padding: 0 30px;
+  padding: 0 50px;
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
@@ -183,7 +188,7 @@ input[name="Search"] {
 .popular-container p,
 .recommended-container p {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 .popular-movies-1 {
   width: 30%;
