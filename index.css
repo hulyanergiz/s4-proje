@@ -122,7 +122,7 @@ input[name="Search"] {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   border: 1px solid red;
-  border-radius: 7%;
+  border-radius: 10px;
 }
 .buton-class {
   margin-left: 10px;
@@ -148,10 +148,10 @@ input[name="Search"] {
 /*MOVIE CARDS*/
 .others-container,
 .foryou-container {
-  background-color: black;
-  color: red;
+  background-color: rgb(18, 18, 18);
+  color: white;
   font-size: 2rem;
-  padding-left: 5px;
+  padding: 0 0 50px 5px;
 }
 .heading-section {
   display: flex;
@@ -187,14 +187,14 @@ input[name="Search"] {
 }
 .popular-movies-1 {
   width: 30%;
-  background-image: url("https://picsum.photos/seed/wit-0823-3/400/280");
+  background-image: url("https://picsum.photos/seed/wit-0823-14/400/280");
   background-size: cover;
 }
 .popular-movies-1 div {
   display: inline-block;
 }
 .popular-movies-1 .audience {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 .popular-movies-2 {
   width: 30%;
@@ -205,7 +205,7 @@ input[name="Search"] {
   display: inline-block;
 }
 .popular-movies-2 .audience {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 .popular-movies-3 {
   width: 30%;
@@ -217,13 +217,10 @@ input[name="Search"] {
   display: inline-block;
 }
 .popular-movies-3 .audience {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 
 /*recommended movies */
-.foryou-container {
-  background-color: black;
-}
 .recommended-container {
   display: flex;
   justify-content: space-evenly;
@@ -231,14 +228,14 @@ input[name="Search"] {
 }
 .recommended-movies-1 {
   width: 30%;
-  background-image: url("https://picsum.photos/seed/wit-0823-6/400/280");
+  background-image: url("https://picsum.photos/seed/wit-0823-17/400/280");
   background-size: cover;
 }
 .recommended-movies-1 div {
   display: inline-block;
 }
 .recommended-movies-1 .audience {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 .recommended-movies-2 {
   width: 30%;
@@ -249,18 +246,18 @@ input[name="Search"] {
   display: inline-block;
 }
 .recommended-movies-2 .audience {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 .recommended-movies-3 {
   width: 30%;
-  background-image: url("https://picsum.photos/seed/wit-0823-8/400/280");
+  background-image: url("https://picsum.photos/seed/wit-0823-13/400/280");
   background-size: cover;
 }
 .recommended-movies-3 div {
   display: inline-block;
 }
 .recommended-movies-3 .audience {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 
 /*spacer*/
@@ -318,7 +315,7 @@ footer nav a {
 }
 .footer-apps img {
   border: 1px solid white;
-  border-radius: 8%;
+  border-radius: 10px;
   margin: 5px 5px 0 5px;
 }
 
@@ -340,6 +337,7 @@ footer nav a {
   }
   footer {
     display: block;
+    font-size: 1.4rem;
   }
   .footer-nav-info {
     width: 100%;
@@ -403,6 +401,9 @@ footer nav a {
     width: 80%;
     margin-bottom: 1em;
   }
+  footer {
+    font-size: 1.3rem;
+  }
   .footer-followus,
   .footer-apps {
     width: 100%;
@@ -413,11 +414,15 @@ footer nav a {
     width: 90%;
     margin-left: 2px;
   }
-  footer nav {
-    display: block;
-  }
+
   .buton-big {
     font-size: larger;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+  footer nav {
+    display: block;
   }
 }
 
