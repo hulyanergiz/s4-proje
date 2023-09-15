@@ -108,7 +108,7 @@ input[name="Search"] {
 
 .imdb-audience-duration .audience {
   border: 1px solid white;
-  margin: 0;
+  flex-basis: 1;
 }
 .more-details {
   font-weight: bold;
@@ -153,6 +153,18 @@ input[name="Search"] {
   font-size: 2rem;
   padding-left: 5px;
 }
+.heading-section {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-section h4,
+.heading-section p {
+  padding: 0 30px;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
 .others-container h3,
 .foryou-container h3 {
   margin-left: 5px;
@@ -310,7 +322,7 @@ footer nav a {
   margin: 5px 5px 0 5px;
 }
 
-/*media queries*/
+/* media queries */
 @media screen and (max-width: 910px) {
   header {
     flex-wrap: wrap;
@@ -396,6 +408,19 @@ footer nav a {
     width: 100%;
   }
 }
+@media screen and (max-width: 582px) {
+  .intro-movie {
+    width: 90%;
+    margin-left: 2px;
+  }
+  footer nav {
+    display: block;
+  }
+  .buton-big {
+    font-size: larger;
+  }
+}
+
 @media screen and (max-width: 500px) {
   header nav {
     flex-direction: column;
@@ -403,5 +428,11 @@ footer nav a {
   }
   .intro-movie-details h2 {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 314px) {
+  .intro-movie {
+    padding-top: 0.5%;
   }
 }
