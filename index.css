@@ -85,6 +85,7 @@ input[name="Search"] {
 }
 .intro-movie-details {
   color: white;
+  padding-left: 10px;
 }
 
 .intro-movie-details h2 {
@@ -164,7 +165,7 @@ input[name="Search"] {
 }
 .heading-section h4,
 .heading-section p {
-  padding: 0 50px;
+  padding: 0 35px;
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
@@ -188,7 +189,7 @@ input[name="Search"] {
 .popular-container p,
 .recommended-container p {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 .popular-movies-1 {
   width: 30%;
